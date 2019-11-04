@@ -1,5 +1,5 @@
 
 // model for ServerDetails
 export class ServerDetails {
-    timestamp: string;
+    serverDateTimeMilli: string;
 }

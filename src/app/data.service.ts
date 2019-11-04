@@ -24,7 +24,6 @@ export class DataService {
   }
 
   getConvertedServerDetails(timestamp) {
-    console.log(timestamp)
     return this._http.get<ConvertedServerDetails>(this.converterServiceApiUrl + timestamp);
   }
 
